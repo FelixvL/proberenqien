@@ -1,0 +1,80 @@
+Cafe
+->Medewerker
+[Array Aan Drank drankjes]
+[Kassa kassa]
+	Welkom, dit zijn de drankjes: xxx
+	Scanner.nextline bestelling doen
+	Drankje pakken en geven
+	afrekenen
+	Bedankt tot ziens
+->Klant (ons)
+[Iedere invoer is een nieuwe klant met eindeloos geld - steeds 1 drankje]
+	Komt in cafe
+	Bestelt product
+	Geld gaat weg
+->Kassa
+[int inhoud]
+	Kassa balans
+	Geld komt binnen
+->Extras: voorraad
+->Drank
+[String naam]
+[int prijs]
+==================================================================
+/*   Opdracht 2; Bar opdracht
+
+1.      - Maak een cafe/bar aan
+       - De bar heeft 3 verschillende soorten drank(Bier, Wijn, Whiskey) drank is klasse
+       - Maak een voorraad aan en prijs van de drank
+
+2.      - Maak een bezoeker aan
+       - Bezoeker heeft geld op zak
+
+3.      - Laat de bezoeker een aantal drankjes bestellen zolang de voorraad strekt
+       - Kan de bezoeker de drank betalen?
+
+4.      - *** BONUS ****
+       - Elk drankje geeft een 'x' waarde naar 'dronkenheid' toe
+       - de bezoeker wordt dronken na een waarde van '10'
+       - de bezoeker mag niet meer drinken als hij dronken is
+
+       - *** EXTRA BONUS ***
+       - Als de bezoeker koffie drinkt, gaat de 'dronkenheid' waarde met '1' omlaag
+	- koffie bestellen toevoegen bij stap 1
+
+  */
+
+==================================================================
+
+
+Maak een groepsreis (NIET INTERACTIEF)
+
+class Groepsreis
+[Array aan Toeristen]
+[Array aan Plekken]
+
+class Toerist
+[Array aan Souvenirs]
+[String Naam]
+[String Land]
+[double Budget]
+[String vervoersmiddel]
+geef aan hoeveel toeristen er zijn en waar ze vandaan komen. Ga na of ze met het vleugtuig of met de trein zijn gekomen. De groepsreis duurt 3 dagen.
+
+
+class souvenirs
+[String naam]
+[int prijs]
+[int weggooitijd] 
+er is een souvenirswinkel waar de toeristen langskomen. geef aan welke souvernirs er zijn, wat het is en hoeveel een souvenir kost. laat de toeristen  een random aantal souvenirs kopen
+
+class plekken
+[String categorie]{monument,museum,park}
+[int entreeprijs]
+[Array Souvenirs]
+de toeristen gaan met een voertuig naar verschillende hotspots op de toer. Geef aan met welke voertuigen de toeristen zijn gkomen naar de hotspots. 
+maak een aantal hotspots aan met het soort hotspot (monument, pretpark etc. ) en hoeveel de entreeprijs is.
+
+Elke toerist start met een bepaald budget. Geef aan hoeveel elke toeriste nog heeft aan het eind van de toer. 
+
+=================================================================
